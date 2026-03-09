@@ -53,7 +53,7 @@ jobs:
           git clone https://github.com/${{ env.HELM_REPO }} helm_repo 
       - name: Update Helm Chart 
         run: |
-          cd helm_repo/reactjs-helm
+          cd helm_repo/gitops-itp-gen1/reactjs-helm
 
           echo "Update repository username/imagename "
 
